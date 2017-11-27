@@ -1,0 +1,698 @@
+/*Main_page*/
+body{
+	background-color: #ffffff;
+	height:100%;
+}
+
+textarea{
+	resize: none;
+}
+
+footer{
+	margin-top: 3%;
+	width:101%;
+	margin-left: -11px;
+	height:40px;
+	border-radius: 20px 20px 0 0;
+	background-color:#187ec0; 
+}
+
+nav {
+	background-color: #187ec0;
+	height: 50px;
+}
+
+nav a{
+	float:left;
+	color:#ffffff;
+	margin-right: 50px;
+	font-size:22px;
+	text-decoration: none;
+	margin-top: 13px; 
+}
+
+nav a:first-child{
+	margin-top: 13px; 
+	margin-left: 17%;
+}
+
+nav a:last-child{
+	float:right;
+}
+
+.content{
+	height:350px;
+	border:1px solid black;
+	border-radius:20px;
+	box-shadow: -3px 5px 20px rgba(0,0,0,0.5);
+	float:left;
+	margin-top: 3%;
+	margin-left:14%;
+	background-color: #f7f7f7;
+}
+
+.content_over{
+	overflow: auto;
+}
+
+.last_expenses{
+	width:60%;
+	height:400px;
+}
+
+.near_expenses{
+	width:60%;
+	height:300px;
+}
+
+.information{
+	float:right;
+	position:absolute;
+	margin-top: 110px;
+	left:1230px;
+	width:20%;
+}
+
+.for_parsing{
+	float:right;
+	position:absolute;
+	left:1230px;
+	top:450px;
+	width:15%;
+}
+
+.last_expenses>h2{
+	padding-left:40%;
+}
+
+.near_expenses>h2{
+	padding-left:30%;
+}
+
+.add_enemy{
+	margin-left: 3%;
+}
+
+.add_pars{
+	margin-left: 10%;
+}
+
+.for_parsing>h2{
+	padding-left:18%; 
+}
+
+.information>h2{
+	padding-left:17%;	
+}
+
+h2{
+	border-bottom:1px solid black;
+	font-size:29px;
+	vertical-align: central;
+}
+
+.content a{
+	font-size:20px;
+	text-decoration: none;
+}
+
+.content li{
+	margin-bottom: 3%;
+	font-size:22px;
+}
+
+/*Kategory_page*/
+
+.pay_list{
+	
+	width:60%;
+	height:400px;
+	float:left;
+	margin-left: 6%;
+	margin-top: 3%; 
+}
+
+.category{
+	margin-left:0;
+	width:285px;
+	height:600px;
+	float:left;
+	margin-top: 3%; 
+	border:1px solid black;
+}
+
+.category ul{
+	font-size:20px;
+	padding-left:0;
+}
+
+.category li a{
+	color:black;
+}
+
+.category li{
+	list-style-type: none;
+	border-bottom:1px solid black;
+	height: 50px;
+	line-height: 50px;
+
+}
+
+
+.category li:hover{
+	background:grey;
+}
+/*See_pay_page*/
+.about_list li,
+.input_list li{
+	list-style-type: none;
+	font-size:25px;
+	margin-bottom: 12%;
+}
+
+.about_list li{
+	margin-bottom: 13%;
+}
+
+.about_list,
+.input_list{
+	width:150px;
+	height:200px;
+}
+
+.see_pay{
+	display:inline-block;
+	width:40%;
+	margin-left: 35%;
+	margin-top: 5%;
+}
+
+.input_list{
+	position:relative;
+	top:192px;
+	right:870px;
+}
+
+.input_list textarea,
+.input_list input{
+	width:250px;
+	height:30px;
+	border-radius: 20px;
+	font-size:24px;
+}
+
+p{
+	font-size:24px;
+}
+
+.push_text {
+	margin-left: -7%;
+	margin-top: -55%;
+}
+
+.push_text button{
+	width:30%;
+	height:30px;
+	border-radius: 15px;
+	margin-right: 19%;
+	background-color: #187ec0;
+	color:white;
+	font-size:20px;
+	font-style: italic;
+}
+
+.push_text textarea{
+	font-size:24px;
+}
+
+.foot{
+	margin-top: 10%;
+}
+
+/**Overview_Res_page**/
+.left_section,
+.right_section,
+main{
+	border:1px solid black;
+	width:32.5%;
+	height:500px;
+	float:left;
+	margin-top: 5%;
+	margin-left: 5px;
+}
+
+main{
+	border:1px solid black;
+	border-radius:20px;
+	box-shadow: -3px 5px 20px rgba(0,0,0,0.5);
+	background-color: #f7f7f7;
+}
+
+form{
+	margin-left: 5%;
+}
+
+main input{
+	width:250px;
+	height:30px;
+	border-radius: 20px;
+	font-size:24px;
+	margin-left: 30%;
+}
+
+main p{
+	text-align: center;
+}
+
+.left_section button,
+.right_section button{
+	width:30%;
+	height:30px;
+	border-radius: 15px;
+	margin-right: 19%;
+	background-color: #187ec0;
+	color:white;
+	font-size:20px;
+	font-style: italic;
+	margin-bottom: 5%;
+	margin-left: 3%;
+}
+
+/** Add_Planned_R**/
+.box{
+	width:50%;
+	height:138%;
+	margin-left: 23%;
+}
+
+.box form{
+	margin-left: 30%;
+}
+
+.box input,
+.selectedCard,
+.sel_cat,
+.selectedCard{
+	width:250px;
+	height:30px;
+	border-radius: 20px;
+	font-size:24px;
+}
+
+.sel_cat{
+	width:270px;
+}
+
+input[type="submit"]{
+	width:50%;
+	height:40px;
+	border-radius: 15px;
+	margin-right: 19%;
+	background-color: #187ec0;
+	color:white;
+	font-size:20px;
+	font-style: italic;
+	margin-bottom: 5%;
+	margin-top: 5%;
+	margin-left: 3%;	
+}
+
+.box+footer{
+	margin-top: 50%;
+}
+
+/**SeePlaned_payPage**/
+.about_planed_list,
+.list_planed{
+	list-style-type: none;
+	width:20%;
+	font-size: 30px;
+	
+}
+
+.about_planed_list{
+	margin-left: 10%;
+	float: left;
+}
+
+.list_planed{
+	width:30%;
+	float:right;
+	margin-right:35%;
+	margin-top: 15px;
+	padding-left: 0;
+}
+
+.about_planed_list li
+{
+	margin-bottom: 10.5%;
+}
+
+.list_planed textarea,
+.list_planed input[type="date"]{
+	width:70%;
+	height:27px;
+	border-radius: 20px;
+	font-size: 20px;
+}
+
+.list_planed li{
+	margin-bottom: 5%;
+}
+
+.planed_box{
+	margin-left: 28%;
+	width:50%;
+	display:block;
+	margin-top: 5%;
+}
+
+.list_planed input[type="date"]{
+	margin-top: 0;
+}
+
+/**Register_page**/
+
+.r_block input{
+	width:20%;
+	height:40px;
+	border-radius: 20px;
+	font-size: 20px;
+	margin-bottom: 2%;
+	margin-left: 10%;
+}
+
+.sub_button{
+	width:30%;
+	margin-left: 15%;
+}
+
+.r_h{
+	margin-left:8%;
+	font-size: 40px;
+}
+
+.i_h{
+	margin-left:17%;
+	font-size: 40px;	
+}
+
+.a_h{
+	margin-left:14%;
+	font-size: 40px;	
+}
+
+.k_h{
+	margin-left:27%;
+	font-size: 40px;	
+}
+
+/**Person_page**/
+
+.person_name input,
+.person_email input,
+.person_limit input{
+	width:20%;
+	height:40px;
+	border-radius: 20px;
+	font-size: 20px;
+}
+
+.person_name button,
+.person_email button,
+.person_limit button{
+	width:10%;
+	height:30px;
+	border-radius: 15px;
+	margin-right: 19%;
+	background-color: #187ec0;
+	color:white;
+	font-size:20px;
+	font-style: italic;
+}
+
+.person_limit{
+	margin-bottom: 20%;
+}
+
+
+/** Add_R**/
+.r_block select{
+	width:20%;
+	height:40px;
+	border-radius: 20px;
+	margin-left: 10%;
+	font-size:20px;
+	font-style: italic;
+}
+
+.r_block p{
+	margin-left: 10%;
+}
+
+.r_block textarea{
+	margin-left:10%;
+}
+
+.r_block input[type="submit"]
+{
+	margin-left:450px;
+	margin-top: 0;
+}
+
+
+
+.content_ux{
+	border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: -3px 5px 20px rgba(0,0,0,0.5);
+    float: left;
+    margin-top: 3%;
+    margin-left: 14%;
+    background-color: #f7f7f7;
+    width: 19%;
+    height: 44px;
+    position: absolute;
+    top: 140px;
+    left: 16px;
+}
+
+
+.sort_mounth{
+	width:60%;
+	height:100px;
+	margin-left:6%;
+	margin-top:3%;
+	border:1px solid black;
+	border-radius: 20px;
+	display: inline-block;
+}
+
+.arrow_left{
+	width:90px;
+	height:90px;
+	float:left;
+	margin-top:0.5%;
+	margin-left: 3%;
+	border-radius: 50px;
+	background-image: url(../image/left.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.arrow_right{
+	width:90px;
+	height:90px;
+	float:right;
+	margin-top:0.5%;
+	margin-right: 3%;
+	border-radius: 50px;
+	background-image: url(../image/right.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.mounths{
+	float:left;
+	border:1px solid black;
+	width:75%;
+	height:55px;
+	margin-top: 20px;
+	margin-left: 1%;
+	font-size: 25px;
+	text-align: center;
+}
+
+.add_button{
+	width:120px;
+	height:30px;
+	font-size:20px;
+	color:white;
+	text-decoration: none;
+	text-align: center;
+	font-style: italic;
+	border:1px solid black;
+	background-color: #187ec0;
+	border-radius: 40px;
+}
+.kategory_add{
+	position:absolute;
+	top:760px;
+	left:20px;
+}
+
+
+.category li a{
+	text-decoration: none;
+}
+
+input:focus{
+	outline:none;
+}
+
+.body{
+	height:100%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.footer {
+  flex: 0 0 auto;
+}
+
+.period{
+	width:250px;
+	height:35px;
+	border-radius: 20px;
+}
+
+.fixed{
+	float:left;
+	margin-left: 20px;
+}
+
+
+.not_marg{
+	margin-left: 0;
+}
+
+.m_b1{
+	margin-left:260px;
+	margin-top: 10px;
+}
+
+.m_b2{
+	margin-left:260px;
+	margin-top: 10px;
+}
+
+.m_b3{
+	margin-left:1490px;
+	margin-top: -460px;
+}
+
+.but_reg{
+	width:14%;
+	height:40px;
+	border-radius: 15px;
+	margin-right: 19%;
+	background-color: #187ec0;
+	color:white;
+	font-size:24px;
+	margin-right: 0;
+	text-align: center;
+	text-decoration: none;
+	position:absolute;
+	top:245px;
+	padding-top: 2px;
+}
+
+.but_avt{
+	padding-top: 2px;
+	width:14%;
+	height:40px;
+	border-radius: 15px;
+	background-color: #187ec0;
+	color:white;
+	font-size:24px;
+	margin-right: 0;
+	text-align: center;
+	text-decoration: none;
+	position:absolute;
+	top:320px;
+
+}
+
+.two_button{
+	width:30%;
+	height:30px;
+	border-radius: 15px;
+	margin-right: 19%;
+	background-color: #187ec0;
+	color:white;
+	font-size:20px;
+	font-style: italic;
+}
+
+
+.change_button button{
+	width:30%;
+	height:30px;
+	border-radius: 15px;
+	margin-right: 4%;
+	background-color: #187ec0;
+	color:white;
+	font-size:20px;
+	font-style: italic;
+}
+
+
+.r_block #cat_text{
+	margin-left: 0;
+}
+
+.box.content input,
+.box.content select{
+	width:40%;				
+}
+
+.box.content input[type="submit"]{
+	margin-left: 65px;
+	margin-top: 40px;
+}
+
+.box.content .see_pay{
+	margin-left: 20%;
+}
+
+.box.content .input_list{
+	top:-315px;
+	right:-200px;
+	width:290px;
+	height:300px;
+}
+
+.box.content .about_list{
+	width:290px;
+	height:300px;
+}
+
+.box.content .input_list input,
+.box.content .input_list select{
+	width:100%;
+}
+
+.sel_fix{
+	    height: 30px;
+    border-radius: 20px;
+    font-size: 24px;
+}
+
+.box.content .planed_box .input_list{
+	top:-320px;
+	right:-208px;
+}
